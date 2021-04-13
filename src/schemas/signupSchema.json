@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "label": "First Name"
+    },
+    "lastName": {
+      "type": "string",
+      "label": "Last Name"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "label": "Date of Birthday"
+    },
+    "gender": {
+      "type": "select",
+      "label": "Gender",
+      "options": [
+        { "value": "0", "label": "Masculine" },
+        { "value": "1", "label": "Feminine" }
+      ]
+    },
+    "contactNumber": {
+      "type": "string",
+      "label": "Contact Number"
+    }
+  },
+  "required": ["firstName", "lastName"]
+}
